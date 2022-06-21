@@ -3,7 +3,7 @@ title: "test"
 output:
   html_document:
     keep_md: true
-date: '2022-06-21'
+date: '2022-06-21 17:00:01'
 ---
 
 ## csv 파일 불러오기
@@ -33,6 +33,8 @@ library(ggplot2)
 ggplot(mpg1, aes(x = cty, y = hwy)) + geom_point()
 ```
 
-![](images/rmd_0620/unnamed-chunk-2-1.png)<!-- -->
+![](/images/rmd_0620/unnamed-chunk-2-1.png)<!-- -->
 
-
+## 새로운 그림 
+- 새로운 시각화를 함
+![](/images/rmd_0620/pressure-1.png)
